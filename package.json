@@ -1,0 +1,38 @@
+{
+  "name": "text-in-image",
+  "version": "0.0.1",
+  "description": "Text written to picture can be controlled position, size, rotation.",
+  "author": "寒山噬",
+  "license": "MIT",
+  "main": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development rollup -w -c scripts/rollup.config.dev.js",
+    "build": "cross-env NODE_ENV=production rollup -c scripts/rollup.config.prod.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "babel-loader": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.34.0",
+    "rollup": "^3.17.2",
+    "rollup-plugin-dts": "^5.2.0",
+    "rollup-plugin-filesize": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-loader": "^9.4.2",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [
+    "canvas",
+    "text",
+    "image",
+    "write text"
+  ],
+  "type": "module"
+}
