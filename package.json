@@ -28,6 +28,10 @@
     "tslib": "^2.5.0",
     "typescript": "^4.9.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hdz2014/text-in-image"
+  },
   "keywords": [
     "canvas",
     "text",
