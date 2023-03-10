@@ -1,11 +1,13 @@
 {
   "name": "text-in-image",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Text written to picture can be controlled position, size, rotation.",
   "author": "寒山噬",
   "license": "MIT",
   "main": "./dist/index.umd.js",
+  "browser": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
+  "files": ["./dist/*"],
   "scripts": {
     "start": "cross-env NODE_ENV=development rollup -w -c scripts/rollup.config.dev.js",
     "build": "cross-env NODE_ENV=production rollup -c scripts/rollup.config.prod.js"
